@@ -8,7 +8,8 @@ class ButtonCom:
     def __init__(self):
         ct.set_appearance_mode('dark')
         ct.set_default_color_theme('blue')
-        self.apps = os.listdir('/home/aditya/.customapps')
+        #replace XYZ with a directory path that holds other python programs for day to day use
+        self.apps = os.listdir('XYZ')
         for n in self.apps:
             if n[0] == '.':
                 self.apps.remove(n)
