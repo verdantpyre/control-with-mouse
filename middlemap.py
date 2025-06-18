@@ -178,7 +178,4 @@ class ButtonCom:
             self.lst = self.lst[1:]
             self.exec()
 
-
-#os.system('python3 App.py')
-#print(KEYBOARD_KEYS)
 ButtonCom()
